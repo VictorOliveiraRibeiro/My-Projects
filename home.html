@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Projeto Blog</title>
+  <link rel="stylesheet" href="/page.css" type="text/css" />
+</head>
+
+<body>
+  <div class="header">
+    <h2>VH Comics</h2>
+    <ul>
+      <li><a href="https://www.vhcomics.com/">Home</a></li>
+      <li><a href="https://www.vhcomics.com/quiz">Quiz</a></li>
+      <li><a href="https://www.vhcomics.com/lista">Lists</a></li>
+      <li><a href="https://www.vhcomics.com/who-we-are/">Team</a></li>
+      <li><a href="https://www.vhcomics.com/contact/">Contact</a></li>
+    </ul>
+    <div class="icon">
+      <img class="icon-image" src="icons/search-icon.png">
+      <img class="icon-image" src="icons/options-icon.png">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="leftcolumn">
+      <div class="card">
+        <h2>List</h2>
+        <h5>By LunarWolf, Jan 22, 2023</h5>
+        <img class="article-image" src="articles/Green Goblin.jpg">
+        <p>Green Goblin: Every time Norman Osborn defeated Spider-Man</p>
+      </div>
+      <div class="card">
+        <h2>Movies</h2>
+        <h5>By GreyAlpha, Jan 29, 2023</h5>
+        <img class="article-image" src="articles/The Ultron.jpg">
+        <p>The Ultron: Producer confirms that the antagonist still has a role in the MCU</p>
+      </div>
+      <div class="card">
+        <h2>Quiz</h2>
+        <h5>By Goldtree, Feb 16, 2023</h5>
+        <img class="article-image" src="articles/Magneto.jpg">
+        <p>Magneto: Did or didn't this happen to the mutant?</p>
+      </div>
+      <div class="card">
+        <h2>TV</h2>
+        <h5>By Starfield, Feb 22, 2023</h5>
+        <img class="article-image" src="articles/Doctor Doom.jpg">
+        <p>Doctor Doom: Villain will be the main character in an upcoming animated series </p>
+      </div>
+    </div>
+    <div class="rightcolumn">
+      <div class="card">
+        <h2>About Us</h2>
+        <img class="profile-image" src="profiles/profile-pic-1.png">
+        <p>A nerd, geek and otaku that decided to create a blog about comic books</p>
+      </div>
+      <div class="card">
+        <img class="profile-image" src="profiles/profile-pic-2.jpg">
+        <p>A journalist and reporter that decided to be the main editor of a blog about comic books</p>
+      </div>
+      <div class="card">
+        <img class="profile-image" src="profiles/profile-pic-3.jpg">
+        <p>An author and composer that decided to be the head writer of a blog about comic books</p>
+      </div>
+      <div class="card">
+        <img class="profile-image" src="profiles/profile-pic-4.png">
+        <p>An artist that decided to be a designer and illustrator of a blog about comic books</p>
+      </div>
+      <div class="card">
+        <h3>Popular Post</h3>
+        <img class="post-image" src="posts/post-5.jpg">
+        <p>All live-action adaptations of Lex Luthor (Updated)</p>
+        <img class="post-image" src="posts/post-6.jpg">
+        <p>The Joker is killed by Commissioner Gordon (Prime Earth)</p>
+        <img class="post-image" src="posts/post-7.jpg">
+        <p>The origin of Barbara Ann Minerva (Cheetah)</p>
+        <img class="post-image" src="posts/post-8.jpg">
+        <p>Reverse Flash becomes a god (The Last Race Saga)</p>
+      </div>
+      <div class="card">
+        <h3>Contact us</h3>
+        <p>Form available only in the desktop version.</p>
+        <form class="contact-form" method="post" action="https://getform.io/f/60a996d3-aea4-4306-b92f-ae35220dd959">
+          <div class="form-item">
+            <label for="form-name">Full Name</label>
+            <input type="name" required placeholder="Type your name" id="form-name" name="form-name" minlength="2"
+              maxlength="32">
+          </div>
+          <div class="form-item">
+            <label for="form-email">Email</label>
+            <input required type="email" placeholder="Type your email" id="form-email" name="form-email"
+              maxlength="100">
+          </div>
+          <div class="form-item">
+            <span>Did you like the site?</span>
+            <input required type="radio" id="form-did-like" name="form-like">
+            <label for="form-did-like">Did</label>
+            <input required type="radio" id="form-didn't-like" name="form-like">
+            <label for="form-didn't-like">Didn't</label>
+          </div>
+          <div class="form-item">
+            <label for="form-message">Message</label>
+            <textarea required id="form-message" name="form-message" placeholder="Type your message" minlength="8"
+              maxlength="128"></textarea>
+            <div class="form-item">
+              <input type="checkbox" id="form-news">
+              <label for="form-news">I want to receive news by email</label>
+            </div>
+          </div>
+          <div class="form-item">
+            <input type="submit" value="Send now" id="form-button-send">
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="loop-pagination">
+    <div class="right">
+      <a href="https://www.vhcomics.com/page/2/">
+        <span>Next page</span>
+      </a>
+    </div>
+    <div class="clearfix">
+    </div>
+  </div>
+
+  <div class="footer">
+    <img class="footer-image" src="logo.jpg">
+    <span>© 2023 VH Comics.</span>
+  </div>
+
+</body>
+
+</html>
